@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Heavly MC | Rank Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <img src="img/banner.jpg" class="banner">
+
+  <h1>HEAVLY MC RANK STORE</h1>
+
+  <div class="rank-card">
+    <h2>RANK VIP</h2>
+    <p class="price">Rp 10.000</p>
+
+    <button onclick="toggleFitur()">Lihat Fitur</button>
+    <div id="fitur" class="fitur">
+      ✔ Fly  
+      ✔ Chat Color  
+      ✔ Kit VIP  
+    </div>
+
+    <button class="buy" onclick="openPayment()">Beli Rank</button>
+  </div>
+</div>
+
+<!-- PAYMENT -->
+<div id="payment" class="popup">
+  <h2>Pilih Pembayaran</h2>
+
+  <img src="img/qris.png" onclick="pay('QRIS')">
+  <img src="img/qris.png" onclick="pay('DANA')">
+
+  <button onclick="closePayment()">Batal</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
