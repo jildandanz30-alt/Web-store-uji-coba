@@ -37,7 +37,7 @@ body::before {
    RANK CARD (GLASS / BENING)
 ================================ */
 .rank-card {
-  background: rgba(0, 0, 0, 0.45); /* BENING, TEMBUS */
+  background: rgba(0, 0, 0, 0.0); /* BENING, TEMBUS */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 
