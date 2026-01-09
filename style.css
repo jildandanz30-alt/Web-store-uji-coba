@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background: #0b0b0b;
+  font-family: Arial;
+  color: #00ff88;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.rank-card {
+  background: #111;
+  border: 2px solid #00ff88;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 22px;
+}
+
+button {
+  background: #00ff88;
+  color: black;
+  border: none;
+  padding: 10px 18px;
+  margin: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buy {
+  background: #00ffaa;
+}
+
+.fitur {
+  display: none;
+  margin-top: 10px;
+  color: white;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  text-align: center;
+  padding-top: 100px;
+}
+
+.popup img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid #00ff88;
+  border-radius: 10px;
+  cursor: pointer;
+}
