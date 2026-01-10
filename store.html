@@ -1,52 +1,13 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Store - MarlinMC</title>
 <link rel="stylesheet" href="assets/css/style.css">
-<script src="assets/js/main.js" defer></script>
-</head>
-<body>
+<script src="assets/js/store.js" defer></script>
 
-<header class="nav">
-  <h1>MARLINMC</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="store.html">Store</a>
-    <a href="vote.html">Vote</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
-
-<div class="store-card">
-  <div class="card-top">
-    <span class="badge">Rank</span>
-    <span class="price">Rp 15.000</span>
-  </div>
-
-  <h2 class="rank-name">CORAL</h2>
-
-  <div class="features hidden" id="fitur-coral">
-    <ul>
-      <li>Active 1 Month</li>
-      <li>Access /anvil</li>
-      <li>Unlock Kits Coral</li>
-      <li>Sethome Max 4</li>
-      <li>Bonus XP 250</li>
-      <li>Bonus Money 5.000</li>
-    </ul>
-  </div>
-
-  <button class="toggle" onclick="toggle('fitur-coral', this)">
-    Detail Rank
-  </button>
-
-  <a class="buy"
-     href="https://wa.me/628XXXXXXXXXX?text=Beli%20Rank%20CORAL">
-     Beli Sekarang
-  </a>
+<div class="rank-card">
+  <img src="assets/img/ranks/coral.png">
+  <h2>CORAL</h2>
+  <button onclick="toggle('coral')">Detail Rank</button>
 </div>
 
-</body>
-</html>
+<div id="coral" class="hidden">
+  Active 1 Month<br>
+  Access /anvil<br>
+</div>
