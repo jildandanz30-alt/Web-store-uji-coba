@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Heavly MC | Rank Store</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heavly mc</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<div class="container">
+<header class="nav">
+  <h1>Heavly mc</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="store.html">Store</a>
+    <a href="vote.html">Vote</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <h1>HEAVLY MC RANK STORE</h1>
+<section class="hero">
+  <h2>What is Heavly mc?</h2>
+  <p>Server Minecraft economy terbaik di Indonesia untuk Java & Bedrock.</p>
+</section>
 
-  <div class="rank-card">
-    <h2>RANK VIP</h2>
-    <p class="price">Rp 20.000</p>
+<section class="cards">
+  <div class="card">🌊 Komunitas Aktif</div>
+  <div class="card">🎮 Cross-Platform</div>
+  <div class="card">💬 Support 24/7</div>
+</section>
 
-    <button onclick="toggleFitur()">Lihat Fitur</button>
-    <div id="fitur" class="fitur">
-      ✔ Fly  
-      ✔ Chat Color  
-      ✔ Kit VIP  
-    </div>
+<footer>
+  © 2026 MARLINMC
+</footer>
 
-    <button class="buy" onclick="openPayment()">Beli Rank</button>
-  </div>
-</div>
-
-<!-- PAYMENT -->
-<div id="payment" class="popup">
-  <h2>Pilih Pembayaran</h2>
-
-  <img src="img/qris.png" onclick="pay('QRIS')">
-  <img src="img/qris.png" onclick="pay('DANA')">
-
-  <button onclick="closePayment()">Batal</button>
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>
